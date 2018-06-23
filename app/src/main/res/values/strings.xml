@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AdvancedAgeTest!</string>
+    <string name="app_name">高级老化测试</string>
+    <string name="title_vedio_play_dialog">视频</string>
+    <string name="title_activity_dialog">测试提示</string>
+    <string name="title_camera_dialog">相机</string>
+    <string name="filename">音频文件名称</string>
+    <string name="playbutton">开始</string>
+    <string name="previewbutton">预览</string>
+    <string name="stopbutton">停止</string>
+    <string name="filenoexist">没有发现音频文件</string>
+    <string name="timeset">请先设置测试时间</string>
+    <string name="stopfirst">请先停止测试</string>
+	
+	<string name="TestTimeItem">测试时间（小时/h）</string>
+	<string name="PleaseInput">请输入测试小时数！</string>
+	<string name="TestTime">测试时间</string>
+	<string name="VibratorAndFlashlight">马达+闪光灯</string>
+	<string name="WaitTest">待测试</string>
+	<string name="Start">开始</string>
+	<string name="MediaAndPhoto">音频循环+图片轮播</string>
+	<string name="FrontAndBackCamera">前置+后置摄像头</string>
+	<string name="HDVideo">高清视频循环</string>
+	
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--tools:context= "com.android.Aage.AutoControlTextSizeEditText"-->
+    <!--tools:context= "com.android.Aage.AutoControlTextSizeButton"-->
+    <!--tools:context= "com.android.Aage.AutoControlTextSizeTextView" -->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/TestTimeItem"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:layout_weight="1.5"/>
+
+    <EditText
+        android:id="@+id/timelength"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:hint="@string/PleaseInput"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/TestTime"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="1" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:format="%s"
+        android:textColor="#00FF00"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="1.5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <TextView
+            android:id="@+id/vfView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/VibratorAndFlashlight"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/vfTestView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/WaitTest"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/vfButton"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/Start"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <TextView
+            android:id="@+id/mpView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/MediaAndPhoto"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/mpTestView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/WaitTest"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/mpButton"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/Start"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <TextView
+            android:id="@+id/c01View"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/FrontAndBackCamera"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/c01TestView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/WaitTest"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/c01Button"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/Start"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <TextView
+            android:id="@+id/vedioView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/HDVideo"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/vedioTestView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="@string/WaitTest"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/vedioButton"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/Start"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/playbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5" >
+        <Button
+            android:id="@+id/playbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="onClick"
+            android:text="@string/playbutton"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/stopbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="onClick"
+            android:text="@string/stopbutton"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/previewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="onClick"
+            android:text="@string/previewbutton"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
